@@ -1,6 +1,6 @@
-def longest_unique_substring(s: str):
+def longest_unique_substring(s):
     if not s:
-        return "", 0   
+        return 0   
 
     start = 0
     max_length = 0
